@@ -1,9 +1,9 @@
 using Unity.Cinemachine;
 using UnityEngine;
 
-public class SpinCamera : MonoBehaviour
+public class SpinCameraOrbital : MonoBehaviour
 {
-    public CinemachineOrbitalFollow orbitalFollow;
+    private CinemachineOrbitalFollow orbitalFollow;
     public float spinSpeed = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
